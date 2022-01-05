@@ -1,0 +1,190 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    /* background-image: url("noble-village-splash-page v2.PNG"); */
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+img {
+    position: fixed;
+    width: 100vw;
+}
+
+.overlay {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.main-content {
+    margin-top: 47.8vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 20;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 105px;
+}
+
+.coming-soon {
+    margin-top: 75px;
+    color: white;
+    font-size: 35px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 479px;
+    /* background-color: rgba(64, 64, 64, 0.2); */
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    z-index: 20px;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    margin: 23px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* height: 20vh; */
+    position: relative;
+
+}
+
+.fa-twitter-square {
+    color: white;
+    font-size: 30px;
+}
+
+.fa-facebook-square {
+    color: white;
+    font-size: 30px;
+}
+
+.fa-instagram-square {
+    color: white;
+    font-size: 30px;
+}
+
+.fa-linkedin {
+    color: white;
+    font-size: 30px;
+}
+
+.info-anchors {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10.5px;
+}
+
+@media only screen and (max-width: 870px) {
+
+    body {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        /* background-image: url("noble-village-splash-page v2.PNG"); */
+        background-size:cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    img {
+        height: 40vh;
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .coming-soon {
+        margin-top: 55px;
+        color: white;
+        font-size: 35px;
+    }
+
+    .overlay {
+        content: " ";
+        display: block;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .main-content {
+        margin-top: 300px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        z-index: 20;
+        
+    }
+
+    footer {
+        width: 100%;
+        height: 34.5vh;
+        margin-top: 10px;
+        margin-bottom: 0;
+        z-index: 20;
+        background-color: rgba(64, 64, 64, 0.4)
+    }
+
+    .info-anchors{
+        margin: 5px;
+    }
+
+    a {
+        margin: 15px
+    }
+    
+}
